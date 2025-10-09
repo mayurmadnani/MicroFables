@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="mayurmadnani.microfables.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_500"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/app_title"
+            app:titleTextColor="@color/tint_primary" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Input layout anchored to the bottom -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/inputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="8dp">
+
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/message_hint"
+                android:inputType="text"
+                android:padding="12dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/sendButton"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/sendButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/send_button_background"
+                android:contentDescription="Send message"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_menu_send"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/messageEditText"
+                app:tint="@color/tint_primary" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Separator above the input -->
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/inputLayout"
+            android:background="@color/text_secondary"
+            android:alpha="0.2"/>
+
+        <!-- Model Spinner -->
+
+        <!-- Separator below the spinner -->
+        <Spinner
+            android:id="@+id/modelSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="8dp"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:prompt="@string/choose_model_prompt" />
+
+        <View
+            android:id="@+id/spinnerSeparator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/modelSpinner"
+            android:layout_marginTop="8dp"
+            android:background="@color/text_secondary"
+            android:alpha="0.2"/>
+
+        <!-- RecyclerView fills the remaining space -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chatRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/view"
+            android:layout_below="@id/spinnerSeparator"
+            android:padding="8dp"
+            tools:listitem="@layout/item_chat_message" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

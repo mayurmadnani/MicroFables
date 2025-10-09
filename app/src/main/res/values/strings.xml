@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MicroFables</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="message_hint">Type a message</string>
+    <string name="choose_a_model">Choose a model</string>
+    <string name="app_title">MicroFables</string>
+    <string name="choose_model_prompt">Choose a model</string>
+</resources>

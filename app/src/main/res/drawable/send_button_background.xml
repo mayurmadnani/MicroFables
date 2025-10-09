@@ -1,0 +1,6 @@
+<!-- In app/src/main/res/drawable/send_button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Use the theme's secondary color -->
+    <solid android:color="@color/primary_700" />
+</shape>

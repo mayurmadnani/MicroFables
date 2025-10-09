@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary_500">#007AFF</color> <!-- A vibrant, modern blue -->
+    <color name="primary_700">#0056B3</color> <!-- A darker shade for the status bar -->
+
+    <!-- Text & Icon Colors -->
+    <color name="text_primary">#1D1D1F</color> <!-- Near-black for primary text -->
+    <color name="text_secondary">#6E6E73</color> <!-- Gray for secondary text -->
+    <color name="tint_primary">#FFFFFF</color>
+
+    <!-- Background & Surface Colors -->
+    <color name="background_light">#F2F2F7</color> <!-- A light gray for the main background -->
+    <color name="surface_light">#FFFFFF</color>
+</resources>

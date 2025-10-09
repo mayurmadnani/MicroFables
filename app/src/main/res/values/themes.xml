@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MyApplication" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimaryVariant">@color/primary_700</item>
+        <item name="colorOnPrimary">@color/surface_light</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/text_secondary</item>
+        <item name="colorSecondaryVariant">@color/text_secondary</item>
+        <item name="colorOnSecondary">@color/surface_light</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Make status bar icons dark for light backgrounds -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+    </style>
+</resources>

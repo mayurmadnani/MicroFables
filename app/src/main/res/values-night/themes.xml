@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Night Mode) -->
+    <style name="Theme.MyApplication" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimaryVariant">@color/primary_700</item>
+        <item name="colorOnPrimary">@color/surface_light</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/text_secondary</item>
+        <item name="colorOnSecondary">@color/text_secondary</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Status bar icons are light by default in dark themes -->
+
+        <!-- You can define dark-specific background/surface colors if needed -->
+        <!-- For example: -->
+        <!-- <item name="android:colorBackground">#1C1C1E</item> -->
+        <!-- <item name="colorSurface">#2C2C2E</item> -->
+    </style>
+</resources>
