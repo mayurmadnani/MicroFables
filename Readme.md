@@ -10,33 +10,43 @@ MicroFables is an Android (Kotlin) application plus a lightweight local training
 ## Demo
 
 🧸 Wholesome Short Stories
+
 https://github.com/user-attachments/assets/adccf53c-bf8d-4f73-9c24-245bbd93b8b7
 
 🎭 Dialogue-Only Stories
+
 https://github.com/user-attachments/assets/33e2fd47-644c-4db6-956a-b22ce4777239
 
 🌸 Haiku Stories
+
 https://github.com/user-attachments/assets/c55cdd6c-fe55-45be-bdcb-d5defdfe5511
 
 🎃 Horror Micro-Tales
+
 https://github.com/user-attachments/assets/bd71db39-dec1-49c7-ae26-1e444a4f1401
 
 📜 Letter/Diary Format
+
 https://github.com/user-attachments/assets/4aa22f3f-4d39-4967-8ad5-8a1d53f39679
 
 🦊 Moral Fables
+
 https://github.com/user-attachments/assets/2ac59414-7fca-44f0-a2b0-010ec9f3f70c
 
 🕵️ Mystery Puzzles
+
 https://github.com/user-attachments/assets/421be6d8-eb27-4fce-9ac6-acfa40e53bc8
 
 🗞️ News Report Style
+
 https://github.com/user-attachments/assets/d66280a2-4e7c-4013-846c-6ef7f3ca1940
 
 💞 Romance Vignettes
+
 https://github.com/user-attachments/assets/cca3dcb5-5982-476d-a7e2-5cf48afe902e
 
 🚀 Sci-Fi Flash Fiction
+
 https://github.com/user-attachments/assets/293b343b-8591-470d-a041-46905d5aa49e
 
 ### Links
