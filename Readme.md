@@ -64,6 +64,7 @@ https://github.com/user-attachments/assets/293b343b-8591-470d-a041-46905d5aa49e
 | Model Interaction | Pluggable API client via [`OllamaApiService`](app/src/main/java/mayurmadnani/microfables/OllamaApiService.kt) |
 | Story Datasets | Multiple thematic JSONL files under [`datasets/`](datasets) |
 | Training | Notebook‑based pipeline in [`model/Training.ipynb`](model/Training.ipynb) |
+| Inference | Notebook with examples for generating stories from prompts (Ollama & Transformers) in [`model/Inference.ipynb`](model/Inference.ipynb) |
 | Theming | Material design + custom color tokens (`@color/primary_500`, etc.) |
 | Extensibility | Add new datasets, adapt API endpoints, customize bubbles, integrate model selection |
 
